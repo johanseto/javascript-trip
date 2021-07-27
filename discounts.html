@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percenteges and discounts.</title>
+</head>
+<body>
+    <header>
+        <h1>Percenteges and discounts</h1>
+        <p>This another cap in JS trip.</p>
+    </header>
+    <section>
+        <h2>Calcule the price of your products with discount</h2>
+        <form>
+            <label for="inputPrice"> Write the price of your product </label>
+            <input id="inputPrice" type="number"/>
+
+            <label for="inputDiscount"> Write the discount of your  product </label>
+            <input id = "inputDiscount" type = "number"/>
+            <button type="button" onclick="onClickButtonPriceDiscount()">Calc the price with discount</button>
+            
+        
+            <label for="inputCoupon"> Type the name of your coupon </label>
+            <input id="inputCoupon" />
+            <button type="button" onclick="onClickCouponDiscount()">Calc the price with coupon discount</button>
+        
+        </form>
+
+        <p id = "resultPrice"></p>
+
+        <p id = "resultCoupon"></p>
+    </section>
+
+    <script src="./discounts.js"></script>
+</body>
+</html>

@@ -5,3 +5,5 @@ A curious road into Js adventures.
 
 
 #Second section : Percentages and disccounts 
+
+#Third section : mean,media and mode in stadistics
